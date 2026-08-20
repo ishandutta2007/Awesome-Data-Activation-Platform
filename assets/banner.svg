@@ -1,0 +1,173 @@
+<svg fill="none" viewBox="0 0 1200 360" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          background: linear-gradient(135deg, #090d16 0%, #0e172a 50%, #1e1b4b 100%);
+          width: 100%;
+          height: 360px;
+          border-radius: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          overflow: hidden;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .grid-bg {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-image: 
+            linear-gradient(to right, rgba(99, 102, 241, 0.05) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
+          background-size: 30px 30px;
+          mask-image: radial-gradient(circle at 50% 50%, black 40%, transparent 80%);
+        }
+
+        .glow-orb {
+          position: absolute;
+          border-radius: 50%;
+          filter: blur(60px);
+          opacity: 0.4;
+          animation: pulse 8s ease-in-out infinite alternate;
+        }
+
+        .glow-1 {
+          width: 280px;
+          height: 280px;
+          background: #6366f1;
+          top: -40px;
+          left: 15%;
+        }
+
+        .glow-2 {
+          width: 240px;
+          height: 240px;
+          background: #06b6d4;
+          bottom: -30px;
+          right: 20%;
+          animation-delay: -4s;
+        }
+
+        .glow-3 {
+          width: 200px;
+          height: 200px;
+          background: #ec4899;
+          top: 30%;
+          right: 10%;
+          animation-delay: -2s;
+        }
+
+        @keyframes pulse {
+          0% { transform: scale(1) translate(0, 0); opacity: 0.3; }
+          50% { transform: scale(1.15) translate(20px, 10px); opacity: 0.55; }
+          100% { transform: scale(0.9) translate(-15px, -10px); opacity: 0.35; }
+        }
+
+        .content {
+          position: relative;
+          z-index: 10;
+          text-align: center;
+          padding: 0 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .badge-pill {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          background: rgba(99, 102, 241, 0.15);
+          border: 1px solid rgba(129, 140, 248, 0.3);
+          color: #a5b4fc;
+          padding: 6px 16px;
+          border-radius: 9999px;
+          font-size: 13px;
+          font-weight: 600;
+          letter-spacing: 0.5px;
+          text-transform: uppercase;
+          margin-bottom: 16px;
+          backdrop-filter: blur(8px);
+        }
+
+        .title {
+          font-size: 38px;
+          font-weight: 800;
+          letter-spacing: -0.5px;
+          margin: 0 0 12px 0;
+          background: linear-gradient(135deg, #ffffff 0%, #e0e7ff 50%, #818cf8 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .subtitle {
+          font-size: 16px;
+          color: #94a3b8;
+          max-width: 780px;
+          margin: 0 0 22px 0;
+          line-height: 1.5;
+        }
+
+        .tag-row {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          justify-content: center;
+        }
+
+        .tag {
+          background: rgba(255, 255, 255, 0.06);
+          border: 1px solid rgba(255, 255, 255, 0.12);
+          color: #cbd5e1;
+          padding: 5px 14px;
+          border-radius: 8px;
+          font-size: 12px;
+          font-weight: 500;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+        }
+
+        .dot {
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+        }
+        .dot-1 { background: #38bdf8; }
+        .dot-2 { background: #a855f7; }
+        .dot-3 { background: #34d399; }
+        .dot-4 { background: #f43f5e; }
+        .dot-5 { background: #fbbf24; }
+      </style>
+      <div class="container">
+        <div class="grid-bg"></div>
+        <div class="glow-orb glow-1"></div>
+        <div class="glow-orb glow-2"></div>
+        <div class="glow-orb glow-3"></div>
+        <div class="content">
+          <div class="badge-pill">
+            <span>⚡ Curated Ecosystem Guide</span>
+          </div>
+          <h1 class="title">Awesome Data Activation Platform</h1>
+          <p class="subtitle">
+            The comprehensive guide &amp; directory of Reverse ETL, Composable CDPs, Customer 360, Real-Time Streaming &amp; Open-Source Activation Infrastructure.
+          </p>
+          <div class="tag-row">
+            <div class="tag"><span class="dot dot-1"></span>Reverse ETL</div>
+            <div class="tag"><span class="dot dot-2"></span>Composable CDP</div>
+            <div class="tag"><span class="dot dot-3"></span>Warehouse Native</div>
+            <div class="tag"><span class="dot dot-4"></span>Real-Time Activation</div>
+            <div class="tag"><span class="dot dot-5"></span>Open-Source Stack</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
