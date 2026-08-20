@@ -1,7 +1,7 @@
 # Awesome-Data-Activation-Platform
 
 Markdown
-# Top Data Activation Platforms Ecosystem
+## Top Data Activation Platforms Ecosystem
 
 
 **Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
