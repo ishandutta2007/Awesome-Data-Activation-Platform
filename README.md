@@ -62,7 +62,7 @@ The table below covers prominent commercial data activation platforms, sorted in
 
 Curated open-source projects providing the building blocks for modern self-hosted data activation, composable CDPs, event collection, reverse ETL, and streaming synchronization. Sorted in descending order by **GitHub Star Count**.
 
-| Project | Category | Description | Stars |
+| Project | Category | Description | GitHub Stars |
 | :--- | :--- | :--- | :--- |
 | **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** | Analytical Storage / Warehouse | High-performance columnar OLAP database management system powering real-time customer data warehousing and lightning-fast segment computations. | [![ClickHouse Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers) |
 | **[Apache Airflow](https://github.com/apache/airflow)** | Orchestration & Reverse ETL | Platform created programmatically to author, schedule, and monitor data activation workflows and warehouse sync pipelines. | [![Airflow Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) |
