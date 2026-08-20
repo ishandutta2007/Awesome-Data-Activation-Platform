@@ -41,45 +41,19 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
+| Platform | Description | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Hightouch](https://hightouch.com/)** | Warehouse-native data activation and composable CDP platform for syncing modeled customer data from warehouses into operational and marketing destinations. | Free tier available; Paid starting from **$350/mo** (usage-based scaling by Monthly Active Syncs / MTRs) | **Free forever plan**: Up to 2 active syncs/month, hourly sync frequency, unlimited destinations & seats, 100M operations/mo cap |
+| **[Census (Fivetran Activations)](https://www.getcensus.com/)** | Reverse ETL and data activation platform syncing warehouse data into operational business applications, CRMs, and ad platforms (now part of Fivetran). | Free tier available; Standard plan starting from **~$300/mo** (consumption-based scaling by Monthly Active Rows / MAR) | **Free forever plan**: Evaluation tier with basic Reverse ETL syncs and limited MAR; **14-day free trial** of paid tier with full access |
+| **[RudderStack](https://www.rudderstack.com/)** | Customer data infrastructure and warehouse-native CDP for event collection, transformations, identity resolution, and data activation. | Free tier available; Growth plan starts at **$265/mo** (for 1M events/month) | **Free forever plan**: Up to 250,000 events/month, 16+ SDK sources, Reverse ETL & warehouse destinations; **30-day free trial** of Growth plan (capped at 25M events) |
+| **[Segment (Twilio Segment)](https://segment.com/)** | Customer data platform and data infrastructure for collecting events across apps and websites, unified profiling, and real-time downstream routing. | Free tier available; Team tier starts at **$120/mo** (for 10,000 MTUs) | **Free forever plan**: Up to 1,000 Monthly Tracked Users (MTUs), 2 data sources, and 450+ integrations |
+| **[mParticle](https://www.mparticle.com/)** | Enterprise customer data platform focused on real-time data collection, identity resolution, audience segmentation, and activation across marketing channels. | Custom enterprise quotes only (typically starts at **~$1,000 - $1,500/mo** minimum commitment billed annually; credit-based usage) | **No free forever tier**; Proof-of-concept (POC) / customized sales demos available upon request (no public self-serve trial) |
+| **[Treasure Data](https://www.treasuredata.com/)** | Enterprise CDP providing customer data collection, profile unification, audience segmentation, predictive analytics, and marketing activation. | Custom enterprise quotes only (starts at **~$3,000 - $5,000+/mo** annual contracts; "No Compute" model based on profiles and events) | **No free forever tier**; Custom **Proof of Concept (POC)** / pilot programs available for prospective enterprise clients upon request |
+| **[ActionIQ](https://www.actioniq.com/)** | Enterprise customer data and audience activation platform focused on customer intelligence, orchestration, and warehouse-native activation (now CDP Agent by Uniphore). | Custom enterprise quotes only (contracts typically start at **~$100,000/year** / ~$8,333/mo) | **No free forever tier**; Custom enterprise Proof of Concept (POC) / product demonstration available upon request |
+| **[Zeotap](https://zeotap.com/)** | Customer data and activation platform supporting identity resolution, audience intelligence, dynamic segmentation, and privacy-conscious activation. | Custom enterprise quotes only (typically starts at **~$2,500 - $4,000/mo** annual contracts based on unified profiles & destinations) | **No free forever tier**; Guided enterprise demos / custom pilot evaluation upon consultation (no public self-serve trial) |
+| **[Lytics](https://www.lytics.com/)** | Customer data platform focused on customer intelligence, audience segmentation, predictive scoring, personalization, and activation (part of Contentstack). | Free tier available; Growth plan starts at **$500/mo** (for 5M credits/month) | **Free forever (Developer) tier**: Up to 2,000,000 credits/month and support for up to 10 domains; **30-day free trial** of Growth plan |
+| **[Simon Data](https://www.simondata.com/)** | Customer data and marketing platform focused on unified customer profiles, real-time segmentation, lifecycle marketing, and activation. | Custom enterprise quotes only (contracts typically start at **~$2,500 - $5,000+/mo** / $30k-$60k+ annually based on profile volume) | **No free forever tier**; **90-day pilot program** available for qualified enterprise evaluations upon consultation |
 
-- **[Hightouch](https://hightouch.com/)**  
-  Warehouse-native data activation and composable CDP platform for syncing modeled customer data from warehouses such as Snowflake, BigQuery, Redshift, and Databricks into operational and marketing destinations. Hightouch positions itself around Reverse ETL, audience activation, and warehouse-native customer data workflows. 
-
-
-- **[Census](https://www.getcensus.com/)**  
-  Reverse ETL and data activation platform that syncs warehouse data into operational business applications including CRMs, marketing platforms, advertising systems, and customer-success tools.
-
-
-- **[RudderStack](https://www.rudderstack.com/)**  
-  Customer data infrastructure and warehouse-native CDP platform for collecting events, transforming data, building customer profiles, and activating data across warehouses and downstream business tools.
-
-
-- **[mParticle](https://www.mparticle.com/)**  
-  Customer data platform focused on real-time data collection, identity resolution, audience management, data quality, and activation across marketing and customer-experience destinations.
-
-
-- **[Treasure Data](https://www.treasuredata.com/)**  
-  Enterprise customer data platform providing customer data collection, unification, segmentation, audience management, analytics, and activation across marketing and business destinations.
-
-
-- **[Segment](https://segment.com/)**  
-  Customer data platform and customer-data infrastructure provider for collecting events from applications and websites, creating unified customer data, and routing it to analytics, marketing, and operational destinations.
-
-
-- **[ActionIQ](https://www.actioniq.com/)**  
-  Enterprise customer data and audience activation platform focused on customer intelligence, audience segmentation, orchestration, and activation across enterprise marketing ecosystems.
-
-
-- **[Zeotap](https://zeotap.com/)**  
-  Customer data and activation platform supporting identity, audience intelligence, segmentation, orchestration, and privacy-conscious activation. Its composable activation capabilities can compute audiences directly against warehouse data. 
-
-
-- **[Lytics](https://www.lytics.com/)**  
-  Customer data platform focused on customer intelligence, audience segmentation, predictive scoring, personalization, and activation.
-
-
-- **[Simon Data](https://www.simondata.com/)**  
-  Customer data and marketing platform focused on unified customer profiles, real-time segmentation, lifecycle marketing, personalization, and activation.
 
 
 Recommended Open-Source Combinations
